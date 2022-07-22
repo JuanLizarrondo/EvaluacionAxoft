@@ -1,0 +1,9 @@
+object DM_DataModule: TDM_DataModule
+  OldCreateOrder = False
+  Height = 275
+  Width = 362
+  object DataBase: TFDConnection
+    Left = 24
+    Top = 32
+  end
+end

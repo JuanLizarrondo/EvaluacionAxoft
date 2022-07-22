@@ -1,0 +1,16 @@
+program RegistroTareas;
+
+uses
+  Vcl.Forms,
+  Main in 'Main.pas' {FRM_Main},
+  TareaEditor in 'TareaEditor.pas' {FRM_TareaEditor};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFRM_Main, FRM_Main);
+  Application.CreateForm(TFRM_TareaEditor, FRM_TareaEditor);
+  Application.Run;
+end.

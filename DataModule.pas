@@ -1,0 +1,62 @@
+unit DataModule;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.VCLUI.Wait,
+  Data.DB, FireDAC.Comp.Client, FireDAC.Phys.MSSQL, FireDAC.Phys.MSSQLDef,
+  System.ImageList, Vcl.ImgList, Vcl.Controls;
+
+type
+  TDM_DataModule = class(TDataModule)
+    DataBase: TFDConnection;
+    ImageList1: TImageList;
+  private
+    { Private declarations }
+  public
+    function crearQuery():TFDQuery;
+    function getDate(): TDateTime;
+    procedure actualizarQuery(fdq: TFDQuery);
+    { Public declarations }
+  end;
+
+var
+  DM_DataModule: TDM_DataModule;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+{ TDM_DataModule }
+
+procedure TDM_DataModule.actualizarQuery(fdq: TFDQuery);
+begin
+  fdq.Close;
+  fdq.Open;
+end;
+
+function TDM_DataModule.crearQuery: TFDQuery;
+var
+fdq: TFDQuery;
+begin
+  fdq:= TFDQuery.Create(nil);
+  fdq.ConnectionName:= DataBase.ConnectionName;
+  Result:= fdq;
+end;
+
+function TDM_DataModule.getDate: TDateTime;
+var
+fdq: TFDQuery;
+begin
+   fdq:= crearQuery;
+   fdq.SQL.Add('Select GETDATE() as Fecha');
+   fdq.Close;
+   fdq.Open;
+   Result:= fdq.FieldByName('Fecha').AsDateTime
+end;
+
+end.

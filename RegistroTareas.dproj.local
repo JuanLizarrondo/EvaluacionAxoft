@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/07/20 23:18:44.000.765,=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/20 23:20:33.000.198,C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Main.dfm</Transaction>
+    <Transaction>2022/07/20 23:20:33.000.198,C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Main.pas</Transaction>
+    <Transaction>2022/07/20 23:20:40.000.104,C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\RegistroTareas.dproj</Transaction>
+    <Transaction>2022/07/20 23:32:58.000.438,=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.pas</Transaction>
+    <Transaction>2022/07/20 23:46:20.000.318,C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.dfm=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\TareaEditor.dfm</Transaction>
+    <Transaction>2022/07/20 23:46:20.000.318,C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.pas=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\TareaEditor.pas</Transaction>
+    <Transaction>2022/07/20 23:46:47.000.853,=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.pas</Transaction>
+    <Transaction>2022/07/20 23:47:28.000.108,C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.pas=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\DataModule.pas</Transaction>
+    <Transaction>2022/07/20 23:47:28.000.108,C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.dfm=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\DataModule.dfm</Transaction>
+    <Transaction>2022/07/22 04:05:18.795,=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.pas</Transaction>
+    <Transaction>2022/07/22 04:06:03.567,C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\EstadoSelector.pas=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.pas</Transaction>
+    <Transaction>2022/07/22 04:06:03.567,C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\EstadoSelector.dfm=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.dfm</Transaction>
+    <Transaction>2022/07/22 04:21:26.356,=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.pas</Transaction>
+    <Transaction>2022/07/22 04:21:41.394,C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\ConexionEditor.pas=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.pas</Transaction>
+    <Transaction>2022/07/22 04:21:41.394,C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\ConexionEditor.dfm=C:\Users\Juan Lizarrondo\Documents\Embarcadero\Studio\Projects\Evaluacion Axoft\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

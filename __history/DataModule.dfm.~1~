@@ -1,0 +1,5 @@
+object DM_DataModule: TDM_DataModule
+  OldCreateOrder = False
+  Height = 150
+  Width = 215
+end

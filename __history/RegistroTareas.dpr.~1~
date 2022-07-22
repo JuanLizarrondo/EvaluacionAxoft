@@ -1,0 +1,14 @@
+program RegistroTareas;
+
+uses
+  Vcl.Forms,
+  Main in 'Main.pas' {FRM_Main};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFRM_Main, FRM_Main);
+  Application.Run;
+end.

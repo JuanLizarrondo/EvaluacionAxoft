@@ -1,0 +1,17 @@
+object DM_DataModule: TDM_DataModule
+  OldCreateOrder = False
+  Height = 275
+  Width = 362
+  object DataBase: TFDConnection
+    ConnectionName = 'MainDB'
+    Params.Strings = (
+      'Database=GestionTareas'
+      'User_Name=juan'
+      'Password=epsdbrie'
+      'Server=.\SQLEXPRESS'
+      'DriverID=MSSQL')
+    Connected = True
+    Left = 24
+    Top = 32
+  end
+end
